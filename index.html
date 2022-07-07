@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>MF - App Landing Page</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- owl carousel css -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script
+      src="https://kit.fontawesome.com/5c37b504c1.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <!-- Brand -->
+        <a class="navbar-brand" href="index.html">MF-APP</a>
+
+        <!-- Toggler/collapsibe Button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsibleNavbar"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link active" data-scroll-nav="0" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-scroll-nav="1" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-scroll-nav="2" href="#">Screenshots</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-scroll-nav="3" href="#">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-scroll-nav="4" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-scroll-nav="5" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section
+      class="home d-flex align-items-center"
+      id="home"
+      data-scroll-index="0"
+    >
+      <div class="effect-wrap">
+        <i class="fas fa-plus effect effect-1"></i>
+        <i class="fas fa-plus effect effect-2"></i>
+        <i class="fa-solid fa-circle-notch effect effect-3"></i>
+      </div>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-7">
+            <div class="home-text">
+              <h1>La mejor plantilla de aplicación móvil para tu negocio</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+                dolores velit voluptates vero non minus maiores consectetur iure
+                quam reprehenderit.
+              </p>
+              <div class="home-btn">
+                <a href="#" data-scroll-goto="6" class="btn btn-1"
+                  >Descargar app</a
+                >
+                <button class="btn btn-1 video-play-btn">
+                  <i class="fas fa-play"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 text-center">
+            <div class="home-img">
+              <div class="circle"></div>
+              <img src="./img/app-screenshots/1.png" alt="MF-APP" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="video-popup">
+      <div class="video-popup-inner">
+        <i class="fa-solid fa-xmark video-popup-close"></i>
+        <div class="iframe-box">
+          <iframe
+            id="player1"
+            src="https://www.youtube.com/embed/dSHgRZGIznU"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="features section-padding"
+      id="features"
+      data-scroll-index="1"
+    >
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title">
+              <h2>awesome <span>features</span></h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="owl-carousel features-carousel">
+            <div class="feature-item">
+              <div class="icon">
+                <i class="fas fa-code"></i>
+              </div>
+              <h3>clean code</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Placeat totam, impedit culpa quos asperiores soluta.
+              </p>
+            </div>
+            <div class="feature-item">
+              <div class="icon">
+                <i class="fas fa-edit"></i>
+              </div>
+              <h3>auto install system</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Placeat totam, impedit culpa quos asperiores soluta.
+              </p>
+            </div>
+            <div class="feature-item">
+              <div class="icon">
+                <i class="fas fa-paint-brush"></i>
+              </div>
+              <h3>pixel perfect design</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Placeat totam, impedit culpa quos asperiores soluta.
+              </p>
+            </div>
+            <div class="feature-item">
+              <div class="icon">
+                <i class="fas fa-check"></i>
+              </div>
+              <h3>Carga rápida</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Placeat totam, impedit culpa quos asperiores soluta.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="fun-facts section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-5 d-flex align-items-center">
+            <div class="fun-facts-img">
+              <img src="./img/app-screenshots/2.png" alt="fun facts" />
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-7">
+            <div class="section-title">
+              <h2>Hechos <span>graciosos</span></h2>
+            </div>
+            <div class="fun-facts-text">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+                expedita omnis, cumque a consequatur ullam reprehenderit
+                doloremque labore, reiciendis odit consequuntur, deleniti ea.
+                Nesciunt dolorem corrupti asperiores recusandae corporis.
+                Similique!
+              </p>
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="fun-fact-item style-1">
+                    <h3>4000</h3>
+                    <span>Descargas</span>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="fun-fact-item style-2">
+                    <h3>600</h3>
+                    <span>Me gusta</span>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="fun-fact-item style-3">
+                    <h3>500</h3>
+                    <span>Calificación inicial</span>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="fun-fact-item style-4">
+                    <h3>150</h3>
+                    <span>Premios</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="app-screenshots section-padding"
+      id="screenshots"
+      data-scroll-index="2"
+    >
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title">
+              <h2>app <span>Screenshots</span></h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="owl-carousel screenshots-carousel">
+            <div class="screenshot-item">
+              <img src="./img/app-screenshots/1.png" alt="screenshot-1" />
+            </div>
+            <div class="screenshot-item">
+              <img src="./img/app-screenshots/2.png" alt="screenshot-2" />
+            </div>
+            <div class="screenshot-item">
+              <img src="./img/app-screenshots/3.png" alt="screenshot-3" />
+            </div>
+            <div class="screenshot-item">
+              <img src="./img/app-screenshots/1.png" alt="screenshot-1" />
+            </div>
+            <div class="screenshot-item">
+              <img src="./img/app-screenshots/2.png" alt="screenshot-2" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="app-download section-padding" data-scroll-index="6">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title">
+              <h2>Descargar <span>app</span></h2>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-6">
+            <div class="app-download-item">
+              <i class="fa-brands fa-google-play"></i>
+              <h3>google-play</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+                sequi voluptatibus consequatur dolor est quibusdam.
+              </p>
+              <a href="#" class="btn btn-2">Déscargala ya</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="app-download-item">
+              <i class="fa-brands fa-apple"></i>
+              <h3>apple store</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+                sequi voluptatibus consequatur dolor est quibusdam.
+              </p>
+              <a href="#" class="btn btn-2">Déscargala ya</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="app-download-item">
+              <i class="fa-brands fa-windows"></i>
+              <h3>microsoft store</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+                sequi voluptatibus consequatur dolor est quibusdam.
+              </p>
+              <a href="#" class="btn btn-2">Déscargala ya</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="how-it-works section-padding">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title">
+              <h2>Cómo <span>funciona</span></h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="how-it-works-item line-right">
+              <div class="step">1</div>
+              <h3>Déscargala</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Officiis, voluptas.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="how-it-works-item line-right">
+              <div class="step">2</div>
+              <h3>Créate un perfil</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Officiis, voluptas.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="how-it-works-item line-right">
+              <div class="step">3</div>
+              <h3>Busca un producto</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Officiis, voluptas.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="how-it-works-item">
+              <div class="step">4</div>
+              <h3>Ordena</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Officiis, voluptas.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="testimonials section-padding"
+      id="testimonials"
+      data-scroll-index="3"
+    >
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title">
+              <h2>Lo que dicen nuestros <span>clientes</span></h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="owl-carousel testimonials-carousel">
+            <div class="testimonial-item">
+              <div class="img-box">
+                <img src="./img/testimonial/1.jpg" alt="testimonios" />
+                <i class="fas fa-quote-right"></i>
+              </div>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Officiis, voluptas.
+              </p>
+              <h3>upvesh kumar</h3>
+              <span>UI designer</span>
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+            <div class="testimonial-item">
+              <div class="img-box">
+                <img src="./img/testimonial/2.jpg" alt="testimonios" />
+                <i class="fas fa-quote-right"></i>
+              </div>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Officiis, voluptas.
+              </p>
+              <h3>shalini gipta</h3>
+              <span>UI designer</span>
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+            <div class="testimonial-item">
+              <div class="img-box">
+                <img src="./img/testimonial/3.jpg" alt="testimonios" />
+                <i class="fas fa-quote-right"></i>
+              </div>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Officiis, voluptas.
+              </p>
+              <h3>raj himachal</h3>
+              <span>UI designer</span>
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+            <div class="testimonial-item">
+              <div class="img-box">
+                <img src="./img/testimonial/4.jpg" alt="testimonios" />
+                <i class="fas fa-quote-right"></i>
+              </div>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Officiis, voluptas.
+              </p>
+              <h3>sara sharma</h3>
+              <span>UI designer</span>
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="pricing section-padding" id="pricing" data-scroll-index="4">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title">
+              <h2>plan de <span>precios</span></h2>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-6">
+            <div class="pricing-plan">
+              <div class="pricing-header">
+                <h3>básico</h3>
+              </div>
+              <div class="pricing-price">
+                <span class="currency">$</span>
+                <span class="price">99</span>
+                <span class="period">/mensual</span>
+              </div>
+              <div class="pricing-body">
+                <ul>
+                  <li><i class="fas fa-check"></i>5 GB Banda ancha</li>
+                  <li><i class="fas fa-check"></i>Actualización libre</li>
+                  <li>
+                    <i class="fas fa-check"></i>Impresión de alta resolución
+                  </li>
+                  <li><i class="fas fa-check"></i>Soporte</li>
+                </ul>
+              </div>
+              <div class="pricing-footer">
+                <a href="#" class="btn btn-2">Comenzar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="pricing-plan">
+              <div class="pricing-header">
+                <h3>premium</h3>
+              </div>
+              <div class="pricing-price">
+                <span class="currency">$</span>
+                <span class="price">149</span>
+                <span class="period">/mensual</span>
+              </div>
+              <div class="pricing-body">
+                <ul>
+                  <li><i class="fas fa-check"></i>5 GB Banda ancha</li>
+                  <li><i class="fas fa-check"></i>Actualización libre</li>
+                  <li>
+                    <i class="fas fa-check"></i>Impresión de alta resolución
+                  </li>
+                  <li><i class="fas fa-check"></i>Soporte</li>
+                </ul>
+              </div>
+              <div class="pricing-footer">
+                <a href="#" class="btn btn-2">Comenzar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="pricing-plan">
+              <div class="pricing-header">
+                <h3>pro</h3>
+              </div>
+              <div class="pricing-price">
+                <span class="currency">$</span>
+                <span class="price">199</span>
+                <span class="period">/mensual</span>
+              </div>
+              <div class="pricing-body">
+                <ul>
+                  <li><i class="fas fa-check"></i>5 GB Banda ancha</li>
+                  <li><i class="fas fa-check"></i>Actualización libre</li>
+                  <li>
+                    <i class="fas fa-check"></i>Impresión de alta resolución
+                  </li>
+                  <li><i class="fas fa-check"></i>Soporte</li>
+                </ul>
+              </div>
+              <div class="pricing-footer">
+                <a href="#" class="btn btn-2">Comenzar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="team section-padding">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title">
+              <h2>Miembros del <span>Equipo</span></h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="owl-carousel team-carousel">
+            <div class="team-item">
+              <img src="./img/team/1.jpg" alt="team" />
+              <h3>Sarita sharma</h3>
+              <span>UI designer</span>
+            </div>
+            <div class="team-item">
+              <img src="./img/team/2.jpg" alt="team" />
+              <h3>Neha Gupta</h3>
+              <span>UI designer</span>
+            </div>
+            <div class="team-item">
+              <img src="./img/team/3.jpg" alt="team" />
+              <h3>Ramesh Bathi</h3>
+              <span>UI designer</span>
+            </div>
+            <div class="team-item">
+              <img src="./img/team/4.jpg" alt="team" />
+              <h3>Raj Singh</h3>
+              <span>UI designer</span>
+            </div>
+            <div class="team-item">
+              <img src="./img/team/5.jpg" alt="team" />
+              <h3>Renuka Singh</h3>
+              <span>UI designer</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq section-padding">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title">
+              <h2>Consultas <span>Frecuentes</span></h2>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="accordion" id="accordion">
+              <div class="accordion-item">
+                <div
+                  class="accordion-header"
+                  data-toggle="collapse"
+                  data-target="#collapse-01"
+                >
+                  <h3>
+                    100% Responsivo - Se ajusta a cualquier dispositivo
+                    perfectamente
+                  </h3>
+                </div>
+                <div
+                  class="collapse show"
+                  id="collapse-01"
+                  data-parent="#accordion"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Consequuntur facilis aperiam iusto molestias doloribus
+                      itaque!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <div
+                  class="accordion-header collapsed"
+                  data-toggle="collapse"
+                  data-target="#collapse-02"
+                  data-parent="#accordion"
+                >
+                  <h3>Código limpio</h3>
+                </div>
+                <div class="collapse" id="collapse-02">
+                  <div class="accordion-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Consequuntur facilis aperiam iusto molestias doloribus
+                      itaque!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <div
+                  class="accordion-header"
+                  data-toggle="collapse"
+                  data-target="#collapse-03"
+                >
+                  <h3>Diseño moderno y limpio</h3>
+                </div>
+                <div class="collapse" id="collapse-03" data-parent="#accordion">
+                  <div class="accordion-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Consequuntur facilis aperiam iusto molestias doloribus
+                      itaque!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section-padding" data-scroll-index="5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title">
+              <h2>Ponte en <span>contacto</span></h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-5">
+            <div class="contact-info">
+              <h3>Para cualquier consulta y ayuda</h3>
+              <div class="contact-info-item">
+                <i class="fas fa-location-arrow"></i>
+                <h3>Ubicación</h3>
+                <p>1 calle y 6 avenida, San Pedro Sula</p>
+              </div>
+              <div class="contact-info-item">
+                <i class="fas fa-envelope"></i>
+                <h3>Escríbenos a</h3>
+                <p>info@gmail.com</p>
+              </div>
+              <div class="contact-info-item">
+                <i class="fas fa-phone"></i>
+                <h3>Llámanos al</h3>
+                <p>+(504) 96515278</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-8 col-md-7">
+            <div class="contact-form">
+              <form>
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        placeholder="Nombre"
+                        class="form-control"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        placeholder="Email"
+                        class="form-control"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        placeholder="Teléfono"
+                        class="form-control"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        placeholder="Título"
+                        class="form-control"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="form-group">
+                      <textarea
+                        placeholder="Ecribe un mensaje"
+                        class="form-control"
+                      ></textarea>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <button type="submit" class="btn btn-2">Enviar</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-col">
+              <h3>Acerca de nosotros</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consequuntur facilis aperiam iusto molestias doloribus itaque!
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-col">
+              <h3>Compañía</h3>
+              <ul>
+                <li><a href="#">Política de privacidad</a></li>
+                <li><a href="#">Términos y condiciones </a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-col">
+              <h3>Links Rápidos</h3>
+              <ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="#features">features</a></li>
+                <li><a href="#screenshots">screenshots</a></li>
+                <li><a href="#pricing">pricing</a></li>
+                <li><a href="#testimonial">testimonials</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-col">
+              <h3>Redes Sociales</h3>
+              <ul>
+                <li><a href="#">facebook</a></li>
+                <li><a href="#">twitter</a></li>
+                <li><a href="#">instagram</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <p class="copyright-text">2022 @Manuel Fiallos</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- jquery js -->
+    <script src="js/jquery.min.js"></script>
+    <!-- popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- owl carousel js -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- ScrollIt js -->
+    <script src="js/scrollIt.min.js"></script>
+    <!-- main js -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
